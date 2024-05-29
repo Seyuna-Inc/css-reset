@@ -25,7 +25,7 @@ const compile = async (): Promise<void> => {
         await Deno.writeTextFile("./dist/reset.css", css.css);
 
         // Write compiled ts file
-        await Deno.writeTextFile("./dist/reset.ts", "export default `" + css.css + "`;");
+        await Deno.writeTextFile("./dist/reset.ts", "export default `" + css.css + "` as string;");
     } catch(err) {
         console.log(err)
     }

@@ -83,4 +83,4 @@ img {
     **/
   max-width: 100%;
   max-inline-size: 100%;
-}`
+}` as string;
