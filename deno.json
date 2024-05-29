@@ -1,0 +1,20 @@
+{
+    "name": "@seyuna/css-reset",
+    "version": "0.0.1-canary.0",
+    "exports": "./src/index.ts",
+    "imports": {
+        "@/": "./src/",
+        "sass": "npm:sass@latest"
+    },
+    "tasks": {
+        "watch": "deno run --watch --allow-env --allow-read --allow-write --allow-run src/index.ts",
+        "dev": "deno run --allow-env --allow-read --allow-write --allow-run src/index.ts"
+    },
+    "lint": {
+        "exclude": ["dist/"]
+    },
+    "fmt": {
+        "indentWidth": 4
+    },
+    "exclude": ["dist/"]
+}
