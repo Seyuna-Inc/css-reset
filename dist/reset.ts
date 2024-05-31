@@ -1,7 +1,7 @@
 export default `/**
  * Seyuna CSS Reset
  *
- * Version: 0.0.1-canary.0
+ * Version: 0.0.1-canary.1
  * Website: https://seyuna.com/css-reset
  * License: MIT
  **/
@@ -83,4 +83,4 @@ img {
     **/
   max-width: 100%;
   max-inline-size: 100%;
-}`;
+}` as string;

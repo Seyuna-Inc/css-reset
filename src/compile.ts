@@ -31,4 +31,8 @@ const compile = async (): Promise<void> => {
     }
 }
 
+// Execute
+compile()
+
+// Export
 export default compile
